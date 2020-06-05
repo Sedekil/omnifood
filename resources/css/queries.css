@@ -84,6 +84,13 @@
     }
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+
+    footer { padding: 60px 0; }
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+    }
 }
 
 /* Small phones: from 0 to 480px */
