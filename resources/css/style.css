@@ -519,8 +519,9 @@ footer {
 }
 
 .footer-logo {
-    width: 150px;
-    height: auto;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
 }
 
 .footer-nav {
