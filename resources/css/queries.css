@@ -32,7 +32,14 @@
     .plan-box div ul li { font-size: 88%; }
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
+    .footer-nav { margin-bottom: 25px;}
     .footer-nav li { margin-right: 15px; }
+    .small-device-width { width: 100%; }
+    .footer-nav,
+    .social-links { 
+        position: static;
+        float: none;
+    }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -86,8 +93,6 @@
     .works-step:last-of-type { margin-bottom: 20px; }
 
     footer { padding: 60px 0; }
-    .footer-nav,
-    .social-links { float: none; }
 }
 
 /* Small phones: from 0 to 480px */

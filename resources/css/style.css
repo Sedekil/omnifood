@@ -523,6 +523,12 @@ footer {
 .footer-nav {
     list-style: none;
     float: left;
+    position: absolute;
+}
+
+.footer-nav li {
+    position: relative;
+    top: 10px;
 }
 
 .social-links {
@@ -532,12 +538,12 @@ footer {
 
 .footer-nav li {
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .social-links li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .footer-nav li:last-child,
