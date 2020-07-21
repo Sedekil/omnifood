@@ -92,6 +92,8 @@
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
 
+    .align-center { text-align: center;}
+
     footer { padding: 60px 0; }
 }
 
