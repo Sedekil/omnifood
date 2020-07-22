@@ -34,7 +34,7 @@
     .contact-form { width: 80%; }
     .footer-nav { margin-bottom: 25px;}
     .footer-nav li { margin-right: 15px; }
-    .small-device-width { width: 100%; }
+    .footer-mobile-width { width: 100%; }
     .footer-nav,
     .social-links { 
         position: static;
@@ -80,6 +80,7 @@
         width: 100%;
         margin-left: 0%;
     }
+    i { text-align: center;}
     .app-screen { width: 40%; }
     .steps-box:first-child { text-align: center; }
     .works-step div {
@@ -92,11 +93,25 @@
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
 
+    .box h3, .city-feature { margin-left: 30%;}
+
+    cite { text-align: center;}
+    .plan-heading {text-align: center;}
+    .plan-heading:after {
+        display: block;
+        height: 1px;
+        background-color: #e67e22;
+        content: " ";
+        width: 15px;
+        margin: 0 auto;
+        margin-top: 3px;
+    }
+
     .plan-price,
     .plan-price-meal,
     .plan-box div ul li { padding: 0 0 0 25%;}
 
-    .align-center { text-align: center;}
+    .contact-form-align-button { text-align: center;}
 
     footer { padding: 60px 0; }
 }
