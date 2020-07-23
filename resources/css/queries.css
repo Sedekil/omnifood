@@ -95,7 +95,7 @@
 
     .box h3, .city-feature { margin-left: 30%;}
 
-    cite { text-align: center;}
+    cite { margin-left: 30%;}
     .plan-heading {text-align: center;}
     .plan-heading:after {
         display: block;
